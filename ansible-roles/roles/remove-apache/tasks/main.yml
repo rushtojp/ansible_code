@@ -1,2 +1,2 @@
 - name: uninstall apache2
-  action: apt name=apache2 state=absent
+  action: apt name=apache2 state=absent autoremove=yes purge=yes
